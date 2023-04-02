@@ -4,16 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="DataType 수정">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPushQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/StdIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/SwitchExample.java" afterDir="false" />
+    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/DanceLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/DancerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/FieldAndLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/FieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/PackagePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/array/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/array/StringList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/요구사항.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/player/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/Grape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/warm/PineApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juice/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/MethodQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +41,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4df411e2-cd8e-4ba0-a970-e13efeac5269" />
+        <option name="url" value="https://github.com/JeFeel/java_basic.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,16 +81,26 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.ArrayPushQuiz">
-    <configuration name="ArrayBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayBasic" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day05.member" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="input(&quot;#나이: &quot;)" />
+    </option>
+  </component>
+  <component name="RunManager" selected="애플리케이션.day05.member.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day04.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayCopy" />
+    <configuration name="PackagePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.PackagePractice" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayPop" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day05.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayPush" />
+    <configuration name="day05.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day05.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPushQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayPushQuiz" />
+    <configuration name="day05.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.player.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day05.player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ArrayPushQuiz" />
-        <item itemvalue="애플리케이션.ArrayPush" />
-        <item itemvalue="애플리케이션.ArrayPop" />
-        <item itemvalue="애플리케이션.ArrayCopy" />
-        <item itemvalue="애플리케이션.ArrayBasic" />
+        <item itemvalue="애플리케이션.day05.member.Main" />
+        <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.day05.player.Main" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.PackagePractice" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +200,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679893454505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="표준 입력">
+      <created>1679974772096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679974772096</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Switch 문법">
+      <created>1679974813762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679974813762</updated>
+    </task>
+    <task id="LOCAL-00006" summary="☆☆Array☆☆">
+      <created>1679974833785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679974833785</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Array 삭제, 삽입, 탐색 + 예제">
+      <created>1680075368913</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680075368913</updated>
+    </task>
+    <task id="LOCAL-00008" summary="매트릭스, 메서드">
+      <created>1680075381108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680075381108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +253,12 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="Casting, DataType, Scope" />
     <MESSAGE value="DataType 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataType 수정" />
+    <MESSAGE value="표준 입력" />
+    <MESSAGE value="Switch 문법" />
+    <MESSAGE value="☆☆Array☆☆" />
+    <MESSAGE value="Array 삭제, 삽입, 탐색 + 예제" />
+    <MESSAGE value="매트릭스, 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="매트릭스, 메서드" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
