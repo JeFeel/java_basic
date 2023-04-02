@@ -35,7 +35,7 @@ public class DataType {
 
         // 문자 타입 : 한글자
         char c1 = 'A'; // 65
-        System.out.println((char)(c1 + 1));
+        System.out.println((char)(c1 + 1)); //B
 
         char c2 = 44032;
         System.out.println("c2 = " + c2);

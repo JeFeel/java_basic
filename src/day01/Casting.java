@@ -27,16 +27,16 @@ public class Casting {
         //         + 1
         //    00011000
         byte d = (byte) c;
-        System.out.println("d = " + d);
+        System.out.println("d = " + d); //-24
 
         // 다운캐스팅은 데이터소실의 위험성이 있다.
         double x = 3.5566;
         int y = (int) x;
-        System.out.println("y = " + y);
+        System.out.println("y = " + y);  //3
 
         short n = 20;
         byte m = (byte) n;
-        System.out.println("m = " + m);
+        System.out.println("m = " + m);  //20
 
 
         // 타입이 다른 데이터의 연산
@@ -45,10 +45,11 @@ public class Casting {
         double j = 5.5;
 
         double v = k + j;
+        System.out.println(v); //105.5
 
         char c1 = 'A';
         int alpha = 1;
-        System.out.println(c1 + alpha);
+        System.out.println(c1 + alpha); //아스키코드 65 + 1 = 66
 
         // int보다 작은데이터(byte, short, char)끼리의 연산은
         // 무조건 둘 다 int로 변환된다.
@@ -57,13 +58,14 @@ public class Casting {
         byte b2 = 120;
 
         int b3 = b1 * b2;
+        System.out.println(b3); //12000
 
-        System.out.println('가' + 'A');
+        System.out.println('가' + 'A'); //44097
         
         int g = 24;
         double result = (double) g / 5;
 //        double result = g / 5.0;
-        System.out.println("result = " + result);
+        System.out.println("result = " + result); //4.8
         
     }
 }
