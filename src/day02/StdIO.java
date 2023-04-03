@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class StdIO {
     public static void main(String[] args) throws IOException {
 
+        System.out.println();
         String dog = "멍뭉이", cat = "야옹이";
-
         System.out.print(dog);
         System.out.print(cat);
 //        print는 줄바꿈을 자동으로 안 해준다
@@ -23,10 +23,12 @@ public class StdIO {
         System.out.printf("%d월 %d일은 %s입니다.\n", month, day, anni);
 
         double rate = 25.4567;
-//        %f: 무조건 자리수를 6자리로 표현
-        System.out.printf("오늘의 할인율은 %.2f입니다.\n", rate);
-        System.out.printf("오늘의 할인율은 %.4f입니다.\n", rate);
-        System.out.printf("오늘의 할인율은 %.1f%%입니다.\n", rate);
+//      %f: 무조건 자리수를 6자리로 표현
+
+        System.out.printf("오늘의 할인율은 %f입니다.\n", rate); //25.456700
+        System.out.printf("오늘의 할인율은 %.2f입니다.\n", rate); //25.46
+        System.out.printf("오늘의 할인율은 %.4f입니다.\n", rate); //25.4567
+        System.out.printf("오늘의 할인율은 %.1f%%입니다.\n", rate); //25.5%
 
         //표준 입력
         Scanner sc = new Scanner(System.in);
@@ -34,17 +36,14 @@ public class StdIO {
 ////        System.out.println("result = " + result);
 
         String str = sc.nextLine();
-
-
         int result = 0;
+
         try {
             //str를 정수변환
             result = Integer.parseInt(str);
         } catch (Exception e) {
             System.out.println("정수로 입력하거라");
         }
-
         System.out.println("result = " + result);
-
     }
 }

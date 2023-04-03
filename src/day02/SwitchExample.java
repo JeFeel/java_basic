@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SwitchExample {
 
     //자바 상수
+    //psf
     public static final  String SPRING = "봄";
 
 
@@ -18,7 +19,7 @@ public class SwitchExample {
         /*String season = sc.nextLine();
 //        double d = 3.14;
         //switch문에는 정수, 문자형 변수를 써야 한다
-        switch (season){
+        switch (season.toLowerCase()){
             //case에는 변수불가능 상수만 가능
             case SPRING:
                 System.out.println("봄에는 여의도를 가세요!"); break; //switch문의 탈출

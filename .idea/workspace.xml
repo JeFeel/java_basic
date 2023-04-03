@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="주석 추가">
-      <change afterPath="$PROJECT_DIR$/src/day06/encap/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/encap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac2/C.java" afterDir="false" />
+    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="정보은닉, 캡슐화">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/StdIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/StdIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <command value="input(&quot;#나이: &quot;)" />
     </option>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.StdIO">
     <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03.ArrayDelete" />
       <module name="java_basic" />
@@ -99,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Scope" />
+    <configuration name="StdIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.StdIO" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StdIO" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.ArrayDelete" />
         <item itemvalue="애플리케이션.day05.member.Main" />
         <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.Scope" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +251,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680504012081</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="접근 제한자">
+      <created>1680510570619</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680510570619</updated>
+    </task>
+    <task id="LOCAL-00016" summary="정보은닉, 캡슐화">
+      <created>1680510625457</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680510625457</updated>
+    </task>
+    <task id="LOCAL-00017" summary="정보은닉, 캡슐화">
+      <created>1680511748668</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680511748668</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +313,9 @@
     <MESSAGE value="Day 01 복습" />
     <MESSAGE value="Day 05 마무리" />
     <MESSAGE value="주석 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="주석 추가" />
+    <MESSAGE value="접근 제한자" />
+    <MESSAGE value="정보은닉, 캡슐화" />
+    <option name="LAST_COMMIT_MESSAGE" value="정보은닉, 캡슐화" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
