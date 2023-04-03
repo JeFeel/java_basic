@@ -15,14 +15,13 @@ public class Main {
 
         myCar.setSpeed(500);
         System.out.println(myCar.getSpeed());
+        //조건 충족x --> 0 리턴
 
         myCar.setMode('A');
         System.out.println(myCar.getMode());
+        //switch의 default가 출력됨
 
-        myCar.pressButton();
-
-
-
+        myCar.pressButton(); //미리 안에서 순서를 정해둔 캡슐이 실행됨
 
     }
 }

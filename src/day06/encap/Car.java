@@ -15,13 +15,13 @@ public class Car {
 
     // setter: 필드값을 제어하기 위한 메서드
     public void setSpeed(int speed){
-        if(speed<0||speed>200) return;
+        if(speed<0||speed>200) return; //디폴트값인 0을 반환
         this.speed = speed;
     }
     //getter: 필드값을 참조하기 위한 메서드
     public int getSpeed(){
         //필드에는 km로 저장되어 있는데 mile 변환해서 줘야함
-        return this.speed;
+        return this.speed; //mile 단위변환에 맞게 수식 적어서 리턴할 수 있음
     }
 
     public String getModel() {
@@ -79,12 +79,10 @@ public class Car {
         putOil();
         moveCylinder();
         //pressButton이라는 캡슐 안에
-        //순서를 내부적으로 정해줌 (외부에서 변경 불가)
+        //순서를 내부적으로 정해줌 (외부에서 변경 못하게)
         System.out.println("시동이 걸렸습니다.");
-
-
     }
 
     //pressButton만 public으로 만들고 나머지를 private으로 돌림
-    //캡슐화
+    //캡슐화!
 }
