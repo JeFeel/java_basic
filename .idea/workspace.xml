@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="Day 02 복습">
+    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="Day 06 복습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/encap/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/encap/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/modi/pac1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/modi/pac1/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/modi/pac2/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/modi/pac2/C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680524255067</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Day 06 복습">
+      <created>1680543273116</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680543273116</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +338,8 @@
     <MESSAGE value="접근 제한자" />
     <MESSAGE value="정보은닉, 캡슐화" />
     <MESSAGE value="Day 02 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 02 복습" />
+    <MESSAGE value="Day 06 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 06 복습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
