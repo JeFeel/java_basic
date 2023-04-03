@@ -15,9 +15,11 @@ public class ArrayCopy {
     //선언과 동시에 초기화한다면 new Type[] 생략가능
     String[] pets = {"멍멍이", "야옹이", "짹짹이"};
 
-    for(String p : new String[]{"야옹이", "냠냠이", "콩콩이"}) {}
+//    for(String p : new String[]{"야옹이", "냠냠이", "콩콩이"}) {}
 
 //    String[] petsCopy = pets; //이렇게 하면 안 됨
+//    ===========================================================================
+
 
     //1. 원본과 동일한 사이즈의 배열을 하나 더 생성
     String[] petsCopy = new String[pets.length];

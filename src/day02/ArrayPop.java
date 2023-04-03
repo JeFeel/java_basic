@@ -8,7 +8,7 @@ public class ArrayPop {
     if (arr.length>0) {
       //0.삭제 대상 데이터 백업
       int delTarget = arr[arr.length-1];
-
+      //배열 가장 마지막에 있는 데이터 delTarget에 저장
 
       //1.원본 배열보다 1개 사이즈 작은 새 배열 생성
       int[] temp = new int[arr.length-1];
@@ -24,7 +24,7 @@ public class ArrayPop {
     }
     System.out.println("삭제 데이터 없음!");
     return 0;
-  };
+  };//pop() 함수 끝
 
   static int[] arr = {10,20,30,40,50};
 
@@ -33,11 +33,11 @@ public class ArrayPop {
   //배열의 맽 끝 데이터 삭제
 
 
-    pop();
-    pop();
-    pop();
-    pop();
-    pop();
+    pop(); //[10,20,30,40]
+//    pop(); //[10,20,30]
+//    pop(); //[10,20]
+//    pop(); //[10]
+//    pop(); //[]
 
     System.out.println(Arrays.toString(arr));
   }

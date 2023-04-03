@@ -6,11 +6,13 @@ public class ArrayBasic {
   
   public static void main(String[] args) {
 
-    //배열 객체 생성
+    //배열 "객체" 생성
 
     //동종모음 구조
-    int[] arr = new int[5]; //int 배열타입
-    System.out.println("arr = " + arr);
+    int[] arr = new int[5]; //"int 배열"타입
+    //"방의 주소"를 저장
+
+    System.out.println("arr = " + arr); //arr = [I@6bf256fa
 
     arr[0] = 50;
     arr[1] = 77;
@@ -24,7 +26,7 @@ public class ArrayBasic {
 
     //배열 반복분 처기
     for (int i = 0; i < arr.length; i++) {
-      System.out.printf("%d번 데이터 : %d\n", i+1, arr[i]);
+      System.out.printf("%d번 데이ㅏ터 : %d\n", i+1, arr[i]);
     }
 
 //    foreach문 - 단축키 iter
@@ -34,7 +36,7 @@ public class ArrayBasic {
       System.out.printf("데이터 : %d\n", n);
     }
 
-    //배열 내부데이터 문자열로 출력
+    //배열 내부데이터 문자열로 출력 Arrays.toString()
     System.out.println(Arrays.toString(arr));
 
   }
