@@ -7,6 +7,7 @@ public class Main {
         //객체는 항상 역할에 의존해야지 구현체에 의존하면 안됨
         Computer com = new Computer();
         LgMonitor lgMonitor = new LgMonitor();
+        SamsungKeyboard samsungKeyboard = new SamsungKeyboard();
 
         com.monitor = lgMonitor;
 
@@ -14,6 +15,7 @@ public class Main {
         com.monitor = new HpMonitor();
         com.monitor = new LgMonitor();
 
+        com.keyboard = new SamsungKeyboard();
 
 
     }
