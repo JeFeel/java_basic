@@ -109,4 +109,7 @@ public class StringList {
         sArr = temp;
     }
 
+    public String[] getsArr() {
+        return sArr;
+    }
 }
