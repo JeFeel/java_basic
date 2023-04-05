@@ -20,8 +20,10 @@ public class CookBook extends Book{
         this.coupon = coupon;
     }
 
-    @Override
+    @Override //부모인 Book클래스의 info 메서드를 재정의해서 사용
     public String info() {
         return String.format("# 분류: 요리책, %s, 쿠폰유무: %s", super.info(), this.coupon ? "있음":"없음");
+
+        //String.format과 printf(PrintWriter의 메서드) 의 차이는 출력여부!
     }
 }

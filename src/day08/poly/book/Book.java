@@ -42,14 +42,14 @@ public class Book {
         this.publisher = publisher;
     }
 
-    //책 정보를 알려주는 문자열 생성
+    //책 정보(제목)를 알려주는 문자열 생성
     public String info(){
         // 문자열 글자수 얻기 length()
         int length = this.title.length();
         String prettier;
         if(length>8) {
             //문자열 슬라이스 substring()
-            prettier = this.title.substring(0, 8) + "...";
+            prettier = this.title.substring(0, 8) + "..."; //0번 이상 8번 미만 인덱스에 뒤는 ...으로 채움
         }else{
             prettier = this.title;
         }

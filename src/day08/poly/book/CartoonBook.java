@@ -27,7 +27,7 @@ public class CartoonBook extends Book{
         this.accessAge = accessAge;
     }
 
-    @Override
+    @Override //부모인 Book클래스의 info 메서드를 재정의해서 사용
     public String info() {
         return String.format("# 분류: 만화책, %s, 연령제한: %d세", super.info(), accessAge);
     }

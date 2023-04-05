@@ -9,7 +9,7 @@ import static day08.poly.book.RentStatus.*;
 public class LibraryRepository {
 
 
-    //회원 1명
+    //회원 1명일 경우 상정
     private static BookUser bookUser;
 
     //도서정보
@@ -30,7 +30,6 @@ public class LibraryRepository {
         bookUser = userInfo;
     }
 
-
     //마이페이지 기능
     /*여기에 있는 bookUser 정보 리턴*/
 
@@ -40,7 +39,7 @@ public class LibraryRepository {
 
     //모든 책의 정보를 알려주는 메서드
     public String[] getBookInfoList(){
-        String[] infoList = new String[bookList.length];
+        String[] infoList = new String[bookList.length]; //6
 
         for (int i = 0; i < infoList.length; i++) {
             infoList[i]=bookList[i].info();

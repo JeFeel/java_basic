@@ -19,10 +19,9 @@ public class LibraryView {
     //static 데이터는 생성자에서 초기화하면 안 됨
     //static 필드의 초기화는 static initializer를 사용
     static {
+        repository = new LibraryRepository();
 //        System.out.println("정적 초기화자 호출");
 //        sc = new Scanner(System.in);
-        repository = new LibraryRepository();
-
     }
 
     //회원정보 입력처리
@@ -32,16 +31,17 @@ public class LibraryView {
         int age = Integer.parseInt(input("# 나이: "));
         Gender gender = inputGender();
 
-        ///입력받은 데이터 객체로 포장
-        BookUser userInfo = new BookUser();
+        ///입력받은 데이터를 객체로 포장
+        BookUser userInfo = new BookUser(); //BookUser 클래스의 userInfo라는 객체 생성
+        //userInfo (BookUser 클래스) 안에 있는 setter 사용
         userInfo.setName(name);
         userInfo.setAge(age);
         userInfo.setGender(gender);
 
         //입력받은 유저객체를 저장소로 보내기
-        repository.register(userInfo);
-
+        repository.register(userInfo); //userInfo 객체를 통해서 repository로 보냄
     }
+
     //정확하게 성별을 입력할때까지 반복 입력받는 메서드
     //ctrl alt m 으로 extract
     private static Gender inputGender() {
@@ -64,7 +64,7 @@ public class LibraryView {
 
         makeNewBookUser();
 
-        //메인 메뉴 띄우기
+        //메인 메뉴 띄우기 (반복과정)
         while(true){
             showMainScreen();
 
@@ -72,6 +72,7 @@ public class LibraryView {
         }
     }
 
+    //메뉴 고르기
     private static void selectMenu(){
         String menuNum = input("\n-메뉴 번호: ");
 
@@ -79,8 +80,8 @@ public class LibraryView {
             case "1":
                 //마이페이지: 가입한 회원정보 출력
                 //정보 가져옴
-
-                BookUser user = repository.findBookUser();
+                BookUser user = repository.findBookUser();  //return bookUser
+                //userInfo를 받은 bookUser를 불러서 user 객체에 저장
                 System.out.println("\n*******회원님 정보*******");
                 System.out.println("# 회원명:"+user.getName());
                 System.out.println("# 나이:"+user.getAge());
@@ -157,7 +158,6 @@ public class LibraryView {
 
     //메인 메뉴창을 출력하는 메서드
     private static void showMainScreen(){
-
         System.out.println("\n===========도서 메뉴===========");
         System.out.println("#1. 마이페이지");
         System.out.println("#2. 도서 전체 조회");
@@ -168,7 +168,6 @@ public class LibraryView {
 //        System.out.println("#7. ");
 //        System.out.println("#8. ");
         System.out.println("#9. 프로그램 종료하기");
-
     }
 
 

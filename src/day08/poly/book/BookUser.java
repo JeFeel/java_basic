@@ -14,7 +14,7 @@ public class BookUser {
     private Book[] rentBookList; //빌린 책 정보들
 
     public BookUser() {
-    }
+    } //기초 생성자
 
     public BookUser(String name, int age, Gender gender, int couponCount) {
         this.name = name;
@@ -57,6 +57,5 @@ public class BookUser {
     public void setCouponCount(int couponCount) {
         this.couponCount = couponCount;
     }
-
 
 }
