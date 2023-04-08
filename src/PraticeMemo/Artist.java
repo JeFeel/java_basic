@@ -7,9 +7,9 @@ import day04.array.StringList;
 public class Artist {
 
     private String name;
-    private String songList;
+    private StringList songList;
 
-    public Artist(String name, String songList) {
+    public Artist(String name, StringList songList) {
         this.name = name;
         this.songList = songList;
     }
@@ -26,15 +26,12 @@ public class Artist {
         this.name = name;
     }
 
-    public String getSongList() {
+    public StringList getSongList() {
         return songList;
     }
 
-    public void setSongList(String songList) {
+    public void setSongList(StringList songList) {
         this.songList = songList;
     }
 
-    public void setSongList(StringList stringList) {
-        this.songList = songList;
-    }
 }
