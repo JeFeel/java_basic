@@ -7,9 +7,10 @@ public class ThrowsMain {
 
         ThrowsExample te = new ThrowsExample();
 
-        int n = te.inputNumber();
-        int m = te.convert("100");
+//        int n = te.inputNumber();
+//        int m = te.convert("100");
 
+        te.convertAndInput();
 
     }
 

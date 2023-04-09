@@ -10,12 +10,14 @@ public class ThrowsExample {
     //정수를 입력받아서 리턴하는 메서드
     public int inputNumber() throws InputMismatchException {
         Scanner sc = new Scanner(System.in);
+        System.out.println("숫자를 입력해주세요");
         int num = sc.nextInt();
         return num;
     }
 
     //문자열을 정수로 변환하는 기능
     public int convert(String s) throws NumberFormatException{
+        System.out.println("정수로 변환");
         int n = Integer.parseInt(s);
         return n;
     }
@@ -25,7 +27,10 @@ public class ThrowsExample {
 
         try {
             int n = inputNumber();
-            int m = convert("100");
+            int m = convert("안녕");
+
+            System.out.printf("n과 m을 출력: %d, %d", n,m);
+
         } catch (InputMismatchException e) {
             System.out.println("정수 입력 요망");
         } catch (NumberFormatException e) {
