@@ -12,7 +12,6 @@ public class Car {
         this.mode = 'P';
     }
 
-
     // setter: 필드값을 제어하기 위한 메서드
     public void setSpeed(int speed){
         if(speed<0||speed>200) return; //디폴트값인 0을 반환
@@ -49,12 +48,13 @@ public class Car {
     public boolean isStart() {
         return start;
     }
+    //boolean 타입의 getter는 예외적으로 앞에 get 대신에 is가 붙음 (관례?)
 
     public void setStart(boolean start) {
         this.start = start;
     }
 
-
+    //====================================================================
 
     //엔진에 연료가 주입되는 기능
     private void inject(){
@@ -74,6 +74,8 @@ public class Car {
     }
     //시동버튼을 누르는 기능
     public void pressButton(){
+        //자동차의 작동방식
+        //흡입 >> 압축 >>  폭발(점화) >> 배기
         this.start = true;
         inject();
         putOil();
@@ -84,5 +86,5 @@ public class Car {
     }
 
     //pressButton만 public으로 만들고 나머지를 private으로 돌림
-    //캡슐화!
+    //캡슐화! (하나의 목적을 위해 관련 있는 코드들을 한데 묶기
 }

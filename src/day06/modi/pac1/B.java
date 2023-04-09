@@ -18,6 +18,7 @@ class B { //앞에 public 지우면 default 제한 걸림 : 클래스에는 publ
         a.m2(); //default
 //        a.m3(); //private
 
-
     }
+
+    //B는 A랑 같은 패키지 안ㅇ 있으므로 default 제한자까지는 불러들일 수 있음
 }

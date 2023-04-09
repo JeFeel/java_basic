@@ -19,12 +19,12 @@ public class A {
 //    A(){ //현재는 default 제한
     public A(){
 
-        f1=1;
-        f2=2;
-        f3=3;
-        m1();
-        m2();
-        m3();
+        f1=1;   //public
+        f2=2;   //default
+        f3=3;   //private
+        m1();   //public
+        m2();   //default
+        m3();   //private
 
         new A();
         new A(10);
