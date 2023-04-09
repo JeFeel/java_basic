@@ -26,6 +26,7 @@ public class Main {
 //        apples.setFruit(new Banana()); //바나나 담기 불가능
 
         Apple fruit = apples.getFruit();
+        System.out.println(fruit);
         //=============================================
 
         Basket<Banana> bananas = new Basket<Banana>();
@@ -33,7 +34,7 @@ public class Main {
         bananas.setFruit(new Banana());
 
         Banana fruit1 = bananas.getFruit();
-
+        System.out.println(fruit1);
         //ArrayList<Integer> objects = new ArrayList<>();
 
         MyList<String> sl = new MyList<>();
