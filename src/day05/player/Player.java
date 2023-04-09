@@ -3,15 +3,11 @@ package day05.player;
 public class Player {
 
     //게임캐릭터 설계
-
     String nickName; //캐릭터 닉네임
-
     int level;     //레벨
-
     int hp;     //체력
 
     //생성자
-
 //    Player(String inputName){
 //        nickName   = inputName;
 //        level = 1;
@@ -22,7 +18,7 @@ public class Player {
         this("이름없음");
         //기본 생성자, 괄호 안에 비어있음
 //        System.out.println("1번 생성자 호출!");
-//        this.nickName = "이릉없음";
+//        this.nickName = "이름없음";
 //        this.level = 1;
 //        this.hp = 50;
     }
@@ -45,12 +41,12 @@ public class Player {
     //기능 - 메서드
     void attack(Player target){
 
-        if(this==target) return;
+        if(this==target) return; //스스로가 타겟이면 공격 무효
 
         System.out.println("target의 주소: "+ target);
         System.out.println("this의 주소: "+ this);
         //맞은 대상의 체력을 10 감소
-        int damage= (int) (Math.random()*6+10);
+        int damage= (int) (Math.random()*6+10); //10에서 15 사이의 대미지
         target.hp -= damage;
 
 
