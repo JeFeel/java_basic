@@ -10,7 +10,8 @@ public class ListSearchQuiz {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    //ArrayList로 바꾸기
+
+    // 예제를 ArrayList로 바꾸기
     List<String> tvxq = new ArrayList<>(
             Arrays.asList("영웅재중", "최강창민", "시아준수", "믹키유천", "유노윤호")
     );
@@ -33,7 +34,7 @@ public class ListSearchQuiz {
       }
 
       //수정 여부 판단
-      if (index != -1) {
+      if (index != -1) { //위 탐색 알고리즘을 토대로 index의 값이 변화했을 경우
         System.out.printf("%s의 별명을 변경합니다.\n", targetName);
         System.out.printf(">> ");
         String newName = sc.next();
