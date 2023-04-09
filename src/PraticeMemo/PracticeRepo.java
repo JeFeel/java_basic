@@ -41,8 +41,6 @@ public class PracticeRepo {
 
     //기존 등록자 확인 (중복 확인)
     public boolean isRegistered(String artistName){
-
-
         return findArtistByName(artistName) != null;
     }
 
