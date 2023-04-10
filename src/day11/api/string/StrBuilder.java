@@ -17,7 +17,7 @@ public class StrBuilder {
 
     private static void makeStringBuilder() {
         long start = System.currentTimeMillis();
-        StringBuilder s = new StringBuilder();
+        StringBuilder s = new StringBuilder("");
         for (int i = 0; i < 500000; i++) {
             s.append("A");
         }
@@ -29,8 +29,8 @@ public class StrBuilder {
 
     public static void main(String[] args) {
 
-        makeString();
         makeStringBuilder();
+        makeString();
 
         Integer a = 10; //오토 박싱
         Character c = 'A';

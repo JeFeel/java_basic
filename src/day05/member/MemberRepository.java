@@ -1,5 +1,7 @@
 package day05.member;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.LocalDate;
 
 //역할: 회원 저장소 역할
@@ -57,6 +59,22 @@ public class MemberRepository {
 
         temp[temp.length - 1] = newMember;
         memberList = temp;
+
+        //save 파일 생성
+        try(FileWriter fw = new FileWriter("C:/exercise/member.txt")){
+
+            String saveInfo = "";
+            saveInfo += newMember.memberId;
+            saveInfo += ","+newMember.email;
+            saveInfo += ","+newMember.password;
+            saveInfo += ","+newMember.gender;
+            saveInfo += ","+newMember.age;
+
+            fw.append(saveInfo+"\n");
+
+        } catch (IOException e) {
+            System.out.println("파일 저장 실패!");
+        }
 
 
         //가입 성공

@@ -46,7 +46,7 @@ public class Pen  extends Object{
              Pen target = (Pen) obj; //obj객체의 타입 Object를 다운캐스팅
              return this.serial == target.serial && this.color.equals(target.color);
          }
-        return super.equals(obj);
+        return false;
     }
 
     @Override
