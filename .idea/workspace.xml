@@ -4,43 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="day 09 복습">
-      <change afterPath="$PROJECT_DIR$/src/PraticeMemo/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PraticeMemo/PracticeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PraticeMemo/PracticeSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/list/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/list/ListSearchQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/map/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/set/SetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/FinallyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginValidateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/UserMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/AppleBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/BananaBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/friends/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/friends/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz2/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz2/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz2/ArtistView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz2/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz2/Test.java" afterDir="false" />
+    <list default="true" id="88f28647-a852-4184-bbb6-c89f853dfadd" name="Changes" comment="System 맛보기">
+      <change afterPath="$PROJECT_DIR$/src/day11/api/string/StrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/api/time/DateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/file/FileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/stream/FileInputExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/stream/FileOutputExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +24,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -72,6 +45,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Amazon Corretto/jdk11.0.16_9/lib/src.zip!/java.base/java/io/FileOutputStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Amazon Corretto/jdk11.0.16_9/lib/src.zip!/java.base/java/io/OutputStream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -82,21 +59,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindow실행.ShowToolbar": "false",
-    "last_opened_file_path": "C:/java_basic/src/day10/collection/song",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindow실행.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java_basic/src/day10/collection/song&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day11.api.obj" />
       <recent name="day08.poly" />
       <recent name="day05.member" />
     </key>
@@ -114,13 +92,13 @@
       <command value="input(&quot;#나이: &quot;)" />
     </option>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
-    <configuration name="ListSearchQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListSearchQuiz" />
+  <component name="RunManager" selected="애플리케이션.FileInputExample">
+    <configuration name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.api.time.DateTime" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.collection.list.*" />
+          <option name="PATTERN" value="day11.api.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.song.Main" />
+    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.file.FileExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.collection.song.*" />
+          <option name="PATTERN" value="day11.io.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.map.MapExample" />
+    <configuration name="FileInputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.stream.FileInputExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.collection.map.*" />
+          <option name="PATTERN" value="day11.io.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.set.SetExample" />
+    <configuration name="FileOutputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.stream.FileOutputExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.collection.set.*" />
+          <option name="PATTERN" value="day11.io.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="friends.Test" />
+    <configuration name="StrBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.api.string.StrBuilder" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="friends.*" />
+          <option name="PATTERN" value="day11.api.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.MapExample" />
-        <item itemvalue="애플리케이션.SetExample" />
-        <item itemvalue="애플리케이션.ListSearchQuiz" />
+        <item itemvalue="애플리케이션.FileInputExample" />
+        <item itemvalue="애플리케이션.FileOutputExample" />
+        <item itemvalue="애플리케이션.FileExample" />
+        <item itemvalue="애플리케이션.DateTime" />
+        <item itemvalue="애플리케이션.StrBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -198,27 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679878962701</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Changes">
-      <created>1679893335152</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679893335152</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Casting, DataType, Scope">
-      <created>1679893368053</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679893368053</updated>
-    </task>
-    <task id="LOCAL-00003" summary="DataType 수정">
-      <created>1679893454505</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679893454505</updated>
     </task>
     <task id="LOCAL-00004" summary="표준 입력">
       <created>1679974772096</created>
@@ -444,7 +401,126 @@
       <option name="project" value="LOCAL" />
       <updated>1680781071668</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="day 10">
+      <created>1680857532669</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1680857532669</updated>
+    </task>
+    <task id="LOCAL-00037" summary="artist 예제 연습">
+      <created>1680963171827</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1680963171827</updated>
+    </task>
+    <task id="LOCAL-00038" summary="artist 예제 연습2">
+      <created>1681012020557</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681012020557</updated>
+    </task>
+    <task id="LOCAL-00039" summary="예외 처리 연습">
+      <created>1681013992589</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681013992589</updated>
+    </task>
+    <task id="LOCAL-00040" summary="예외 처리 연습">
+      <created>1681027327073</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1681027327073</updated>
+    </task>
+    <task id="LOCAL-00041" summary="예외 처리 (throws) 연습">
+      <created>1681027796544</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1681027796544</updated>
+    </task>
+    <task id="LOCAL-00042" summary="예외 처리 (finally) 연습">
+      <created>1681028356953</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681028356953</updated>
+    </task>
+    <task id="LOCAL-00043" summary="사용자 정의 예외처리 연습">
+      <created>1681030556683</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1681030556683</updated>
+    </task>
+    <task id="LOCAL-00044" summary="제네릭 연습">
+      <created>1681033756996</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1681033756996</updated>
+    </task>
+    <task id="LOCAL-00045" summary="list 복습">
+      <created>1681038929054</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1681038929054</updated>
+    </task>
+    <task id="LOCAL-00046" summary="set 복습">
+      <created>1681040223508</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1681040223508</updated>
+    </task>
+    <task id="LOCAL-00047" summary="list 복습">
+      <created>1681041430855</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1681041430855</updated>
+    </task>
+    <task id="LOCAL-00048" summary="map 복습">
+      <created>1681042384971</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1681042384971</updated>
+    </task>
+    <task id="LOCAL-00049" summary="접근 제한자, 캡슐화 복습">
+      <created>1681044694064</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1681044694064</updated>
+    </task>
+    <task id="LOCAL-00050" summary="주석 수정">
+      <created>1681045548019</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1681045548020</updated>
+    </task>
+    <task id="LOCAL-00051" summary="toString, equals, hashCode 중복처리">
+      <created>1681089249068</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1681089249069</updated>
+    </task>
+    <task id="LOCAL-00052" summary="System 맛보기">
+      <created>1681090123955</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1681090123955</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,21 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="☆☆Array☆☆" />
-    <MESSAGE value="Array 삭제, 삽입, 탐색 + 예제" />
-    <MESSAGE value="매트릭스, 메서드" />
-    <MESSAGE value="Day 04" />
-    <MESSAGE value="Day 03 MethodQuiz" />
-    <MESSAGE value="Day 05" />
-    <MESSAGE value="Day 01 복습" />
-    <MESSAGE value="Day 05 마무리" />
-    <MESSAGE value="접근 제한자" />
-    <MESSAGE value="정보은닉, 캡슐화" />
-    <MESSAGE value="Day 02 복습" />
-    <MESSAGE value="Day 06 복습" />
-    <MESSAGE value="Day 07" />
-    <MESSAGE value="array 템플릿 수정" />
-    <MESSAGE value="array 템플릿 getter 추가" />
     <MESSAGE value="썬더볼트 공격 추가" />
     <MESSAGE value="다형성 Book 예시" />
     <MESSAGE value="다형성 Car 예시" />
@@ -496,7 +557,22 @@
     <MESSAGE value="오버로드 연습" />
     <MESSAGE value="Book 예제 복습 (case 2까지)" />
     <MESSAGE value="day 09 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 09 복습" />
+    <MESSAGE value="day 10" />
+    <MESSAGE value="artist 예제 연습" />
+    <MESSAGE value="artist 예제 연습2" />
+    <MESSAGE value="예외 처리 연습" />
+    <MESSAGE value="예외 처리 (throws) 연습" />
+    <MESSAGE value="예외 처리 (finally) 연습" />
+    <MESSAGE value="사용자 정의 예외처리 연습" />
+    <MESSAGE value="제네릭 연습" />
+    <MESSAGE value="set 복습" />
+    <MESSAGE value="list 복습" />
+    <MESSAGE value="map 복습" />
+    <MESSAGE value="접근 제한자, 캡슐화 복습" />
+    <MESSAGE value="주석 수정" />
+    <MESSAGE value="toString, equals, hashCode 중복처리" />
+    <MESSAGE value="System 맛보기" />
+    <option name="LAST_COMMIT_MESSAGE" value="System 맛보기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
