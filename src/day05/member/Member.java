@@ -8,7 +8,7 @@ public class Member {
 
     String email;
     String password;
-    String memberName;
+    public String memberName;
     int memberId;
     Gender gender;
     int age;
